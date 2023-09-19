@@ -1,0 +1,149 @@
+{
+    "Flex": 2,
+    "name": "FlyingSonic.bin",
+    "node": "2a47ce9b-202a-43a4-937c-c635ae358353",
+    "objects": [
+        {
+            "name": "Flare the Flying Sonic Recolor",
+            "palettes": [
+                {
+                    "path": "pallet/sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet/son_lzuw.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet/son_sbzu.bin",
+                    "length": 1
+                },
+                {
+                    "path": "../Sonic 1 Scratch DisASM/palette/Sonic.bin",
+                    "length": 1
+                }
+            ],
+            "art": {
+                "path": "artunc/Sonic.bin",
+                "compression": "Uncompressed",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "_maps/Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "_inc/Sonic dynamic pattern load cues.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "uuid": "2a47ce9b-202a-43a4-937c-c635ae358353",
+            "format": "Sonic 1.js"
+        },
+        {
+            "name": "Life Icon",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\lifeicon.bin",
+                "compression": "Nemesis",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "uuid": "47ce9b20-2a53-4413-bcc6-35ae358353cf",
+            "format": "Sonic 1.js"
+        },
+        {
+            "name": "Title Flare",
+            "palettes": [
+                {
+                    "path": "pallet\\title.bin",
+                    "length": 4
+                }
+            ],
+            "art": {
+                "path": "artnem\\titleson.bin",
+                "compression": "Nemesis",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "_maps\\obj0E.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "uuid": "ce9b202a-53a4-437c-8635-ae358353cf25"
+        },
+        {
+            "name": "Signpost",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\signpost.bin",
+                "compression": "Nemesis",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "uuid": "9b202a53-a413-4cc6-b5ae-358353cf2501"
+        },
+        {
+            "name": "FLARE THE FLYING SONIC RECOLOR IN",
+            "palettes": [],
+            "art": {
+                "path": "artnem/flarein.bin",
+                "compression": "Nemesis",
+                "accessor": "",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "_maps/Obj0E_3.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "uuid": "202a53a4-137c-4635-ae35-8353cf250124",
+            "format": "Sonic 1.js"
+        }
+    ]
+}

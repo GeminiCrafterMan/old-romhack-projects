@@ -1,0 +1,682 @@
+{
+    "description": "Flex 2 Project File",
+    "name": "Sonic the Hedgehog Aether",
+    "objects": [
+        {
+            "name": "Sonic the Hedgehog",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\son_lzuw.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\son_sbzu.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\son_ghzu.bin",
+                    "length": 1
+                }
+            ],
+            "art": {
+                "path": "artunc\\Sonic.bin",
+                "compression": "Uncompressed",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "_inc\\Sonic dynamic pattern load cues.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Bridge (GHZ)",
+            "palettes": [
+                {
+                    "path": "pallet\\ghz.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "artnem\\ghzbridg.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Monitors",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\ghz.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "artnem\\monitors.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\obj26.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Giant Ring",
+            "palettes": [],
+            "art": {
+                "path": "artunc\\bigring.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "_maps\\obj4B.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Rings",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\rings.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\obj25.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Signposts",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\signpost.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\obj0D.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Emeralds (Ending)",
+            "palettes": [
+                {
+                    "path": "pallet\\ending.bin",
+                    "length": 4
+                }
+            ],
+            "art": {
+                "path": "artnem\\endemera.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\endingemeralds.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "SS Emeralds",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ssemeral.bin",
+                "compression": "Nemesis",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Special Stage Result Emeralds",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ssresems.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Sonic (Kyukyoku Gamma)",
+            "palettes": [],
+            "art": {
+                "path": "artunc\\Sonic - Old.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "_maps\\Sonic - Old.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "_inc\\Sonic dynamic pattern load cues - Old.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Sonic (S1)",
+            "palettes": [],
+            "art": {
+                "path": "..\\Iso Kilo's 2019 Disassembly\\Art\\Tiles\\Uncompressed\\sonic.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "..\\Iso Kilo's 2019 Disassembly\\Art\\Mappings\\Uncompressed\\Sonic.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "..\\Iso Kilo's 2019 Disassembly\\Other\\Sonic dynamic pattern load cues.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Title Screen Sonic",
+            "palettes": [
+                {
+                    "path": "pallet\\title.bin",
+                    "length": 4
+                }
+            ],
+            "art": {
+                "path": "artnem\\titleson.bin",
+                "compression": "Nemesis",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\obj0E.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "tm",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\titletm.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Super Sonic Cycle (Normal)",
+            "palettes": [
+                {
+                    "path": "pallet\\ssonic.bin",
+                    "length": 4
+                }
+            ],
+            "art": {
+                "path": "",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "HUD",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\ghz.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "artnem\\hud.bin",
+                "compression": "Nemesis",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\obj21.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "E & Numbers",
+            "palettes": [],
+            "art": {
+                "path": "artunc\\HUD.bin",
+                "compression": "Uncompressed"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Life Icon",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\lifeicon.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Mecha Sonic (Destroyed)",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\fzboss2.bin",
+                "compression": "Nemesis",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\Eggman2.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Mecha Sonic",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\ghz.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "artnem\\bossmain.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\Eggman.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "BONU & act results",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ttlcards.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\Sonic Has Passed.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Title Cards",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ttlcards.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\titlecard.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Special Stage Results",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ttlcards.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "_maps\\Special Stage Results.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Continue?",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\cntother.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Spin Dash Dust",
+            "palettes": [],
+            "art": {
+                "path": "artunc\\spindust.bin",
+                "compression": "Uncompressed",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\Spindash Dust.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "_inc\\Spindash Dust PLCs.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            }
+        },
+        {
+            "name": "SONIC TEAM PRESENTS",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\credits.bin",
+                "compression": "Nemesis",
+                "accessor": ""
+            },
+            "mappings": {
+                "path": "_maps\\obj8A.asm",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "Title Screen",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\titlefor.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": "",
+                "accessor": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "",
+            "palettes": [
+                {
+                    "path": "pallet\\sonic.bin",
+                    "length": 1
+                },
+                {
+                    "path": "pallet\\mz.bin",
+                    "length": 3
+                }
+            ],
+            "art": {
+                "path": "artnem\\mzblock.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        },
+        {
+            "name": "",
+            "palettes": [],
+            "art": {
+                "path": "artnem\\ttlcards.bin",
+                "compression": "Nemesis"
+            },
+            "mappings": {
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "format": "Sonic 1",
+                "customDefinition": "",
+                "label": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+$FFFFD1DC = Sonic_Dust+anim which actually equals $FFFFD11C, but something moved it up by $C0.
+$FFFFD1E4 = Sonic_Dust+routine which actually equals $FFFFD124, but that shit's used by the title card.
+$FFFFD1DA = Sonic_Dust+mapping_frame which should equal $FFFFD11A, but I'm moving it up by $C0 to match +anim.
